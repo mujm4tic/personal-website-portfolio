@@ -71,7 +71,7 @@ p{
     flex-direction: column;
 }
 
-.cr div{
+.cr section{
     display: flex;
     flex-direction: column;
 }
