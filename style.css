@@ -55,6 +55,7 @@ article{
 section{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 div{
@@ -69,25 +70,68 @@ p{
 .skills div{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.cr section{
+.skills figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.am figure{
+    display: flex;
+    flex-direction: row;
+}
+
+.course{
     display: flex;
     flex-direction: column;
 }
 
+.nology{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: row;
+}
+
 h1{
     color: black;
+    border: 1px solid black;
 }
 
 h2{
     color: #00000055;
+    border: 1px solid black;
 }
 
 h3{
     color: black;
+    border: 1px solid black;
 }
 
 h4{
     color: #00000055;
+    border: 1px solid black;
+}
+
+.skills img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.contact img{
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.contact figure{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
