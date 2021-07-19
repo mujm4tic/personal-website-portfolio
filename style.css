@@ -218,10 +218,6 @@ a{
     }
 
 @media screen and (min-width: 580px) {
-    #plink section{
-        justify-content: left;
-    }
-    }
     .contact section{
         justify-content: center;
     }
