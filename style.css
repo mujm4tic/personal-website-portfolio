@@ -158,3 +158,21 @@ a{
     justify-content: center;
     align-content: center;
 }
+
+
+#plink div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#plink figure{
+    height: 50%;
+}
+
+#plink img{
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 2vh;
+}
+
