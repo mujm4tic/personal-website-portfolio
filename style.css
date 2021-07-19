@@ -108,6 +108,7 @@ p{
 .nology{
     display: flex;
     justify-content: space-between;
+    align-content: center;
 }
 
 .nology img{
@@ -117,6 +118,12 @@ p{
 .am figure{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+am p{
+    height: 10vh;
 }
 
 .course{
@@ -138,10 +145,11 @@ p{
 h3{
     color: black;
     border: 1px solid black;
+    padding: 1vh;
 }
 
 h4{
-    color: #00000055;
+    color: black;
     border: 1px solid black;
     padding: 1vh 1vw;
     font-weight: bold;
@@ -164,9 +172,18 @@ a{
     border: 1px solid black;
 }
 
+#plink a{
+    padding: 2vh 2vw;
+}
+
 .contact img{
     border-radius: 50%;
     border: 1px solid black;
+}
+
+.contact section{
+    display: flex;
+    justify-content: left;
 }
 
 .contact figure{
@@ -174,6 +191,7 @@ a{
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
+    padding: 1vh 1vw;
 }
 
 
@@ -193,3 +211,44 @@ a{
     margin-top: 2vh;
 }
 
+
+@media screen and (min-width: 912px){
+    h1{
+        margin-top: 3vh;
+    }
+
+    h2{
+        border-left: 1px solid #00000055;
+        height: 4vh;
+        margin-bottom: 4vh;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .nology img{
+        width:540px;
+        height: auto;
+    }
+
+@media screen and (min-width: 580px) {
+    #plink section{
+        justify-content: left;
+    }
+    .projectrc{
+        padding-left: 40vw;
+    }
+    .contact section{
+        justify-content: center;
+    }
+    .contact p{
+        text-align: center;
+    }
+    .amp1{
+        padding-top: 10vh;
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .amp1{
+        padding-top: 13vh;
+}
