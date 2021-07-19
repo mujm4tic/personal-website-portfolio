@@ -17,13 +17,11 @@ nav{
     justify-content: space-around;
     flex-direction: row;
     background-color: white;
-    border: 1px solid black;
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
 }
 
 main{
-    border: 1px solid black;
     padding: 0% 2%;
 }
 
@@ -47,7 +45,6 @@ header h1{
 }
 
 header h2{
-    border-left: 1px solid #00000055;
     font-size: 3vh;
     height: 4vh;
     margin-top: 5vh;
@@ -78,7 +75,6 @@ div{
 }
 
 p{
-    border: 1px solid black;
     color: #00000055;
     padding: 2vh 3vw;
 }
@@ -98,7 +94,6 @@ p{
 
 .skills img{
     margin-top: 2vh;
-    border-color: 1px solid black;
 }
 
 .skills p{
@@ -144,32 +139,27 @@ am p{
 
 h3{
     color: black;
-    border: 1px solid black;
     padding: 1vh;
 }
 
 h4{
     color: black;
-    border: 1px solid black;
     padding: 1vh 1vw;
     font-weight: bold;
 }
 
 h5{
     color: #00000055;
-    border: 1px solid black;
     padding: 1vh 3vw;
 }
 
 a{
     color: #00000055;
-    border: 1px solid black;
     padding: 1vh 1vw;
 }
 
 .skills img{
     border-radius: 50%;
-    border: 1px solid black;
 }
 
 #plink a{
@@ -178,7 +168,6 @@ a{
 
 .contact img{
     border-radius: 50%;
-    border: 1px solid black;
 }
 
 .contact section{
@@ -207,7 +196,6 @@ a{
 
 #plink img{
     border-radius: 50%;
-    border: 1px solid black;
     margin-top: 2vh;
 }
 
@@ -234,8 +222,6 @@ a{
     #plink section{
         justify-content: left;
     }
-    .projectrc{
-        padding-left: 40vw;
     }
     .contact section{
         justify-content: center;
