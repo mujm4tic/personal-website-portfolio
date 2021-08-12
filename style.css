@@ -161,10 +161,6 @@ a{
     border-radius: 50%;
 }
 
-#plink a{
-    padding: 2vh 2vw;
-}
-
 .contact img{
     border-radius: 50%;
 }
@@ -182,21 +178,30 @@ a{
     padding: 1vh 1vw;
 }
 
-
-#plink div{
+#plink section{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
 
-#plink figure{
-    height: 50%;
+#plink div{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
 }
 
-#plink img{
-    border-radius: 50%;
-    margin-top: 2vh;
+#plink a{
+    border: 1px solid red;
+    padding: 2vh 2vw 2vh 2vw;
+    margin-left: 15vw;
+    height: 30vh;
+    width: 20vw;
+    text-align: center;
 }
+
 
 
 @media screen and (min-width: 912px){
